@@ -4,7 +4,8 @@
 //
 //  Created by jameskrauser on 2017/10/16.
 //  Copyright © 2017年 jameskrauser. All rights reserved.
-//  you need to write setter/getter
+//  you need to write setter/getter by yourself 
+//  next demo use the @property and @synthesize to deal setter/getter
 
 #import "Car.h"
 
