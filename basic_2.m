@@ -40,6 +40,7 @@ int main(int argc, const char * argv[]) {
         [ptr setPrice:20];
         NSLog(@"the price of car is %i " , [ptr price]);
       
+        ptr = nil; //ARC will release
         
         NSLog(@" --- finish --- ");
     }
