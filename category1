@@ -1,0 +1,25 @@
+//
+//  category1.m
+//  category1
+//
+//  Created by jameskrauser on 2017/10/23.
+//  Copyright © 2017年 jameskrauser. All rights reserved.
+//  demo category to NSString add my ShowJamesName method
+
+
+#import <Foundation/Foundation.h>
+#import "category_a.h"
+
+@implementation NSString (NSStringCategory )
+-(void) ShowJamesName{
+    NSLog(@"this is call james Names");
+}
+@end
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        NSString *ptr = [[NSString alloc ] init ];
+        [ptr ShowJamesName];
+    }
+    return 0;
+}
