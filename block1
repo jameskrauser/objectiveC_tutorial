@@ -1,0 +1,23 @@
+//
+//  main.m
+//  blocks1
+//
+//  Created by jameskrauser on 2017/10/23.
+//  Copyright © 2017年 jameskrauser. All rights reserved.
+//  demo Blocks
+
+#import <Foundation/Foundation.h>
+
+//assign Blocks to printJames variable
+void(^printJames)(void) =^(void){
+    NSLog(@"Demo Blocks");
+};
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        
+        //call Blocks
+        printJames();
+    }
+    return 0;
+}
