@@ -14,6 +14,7 @@
 -(id)   init;
 -(void) dealloc;
 -(int)  getCounts;
+-(const NSString *) getProductName;
 +(int)  Counts;
 @end
 #endif /* obj_h */
