@@ -10,6 +10,7 @@
 
 @implementation myobj
 static int counter;
+const NSString *productName = @"james";
 
 +(int) Counts {
     return counter;
@@ -30,5 +31,10 @@ static int counter;
 -(int)getCounts {
     return counter;
 }
+
+-(const NSString*) getProductName {
+    return productName;
+}
+
 @end
 
