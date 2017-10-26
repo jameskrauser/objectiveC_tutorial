@@ -5,6 +5,8 @@
 //  Created by jameskrauser on 2017/10/26.
 //  Copyright © 2017年 jameskrauser. All rights reserved.
 //  Set data to readonly1
+//. only provide getter  
+//  
 
 #import <Foundation/Foundation.h>
 
@@ -19,9 +21,11 @@
     double weight;
 }
 
+//Getter method
 -(double)height{
     return height;
 }
+//Getter method
 -(double)weight
 {
     return weight;
